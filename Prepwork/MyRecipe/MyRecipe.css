@@ -85,3 +85,18 @@ h3 {
 .step_by_step_instructions {
 	margin: 15px;
 }
+
+#recipe_id:hover {
+    -ms-transform: scale(1, 1.5); /* IE 9 */
+    -webkit-transform: scale(1, 1.5); /* Safari */
+    transform: scale(1, 1.5);
+    transition-delay: 0.5s;
+}
+
+.ingredients:hover {
+	background: #A1B1B5;
+}
+
+.instructions:hover {
+	background: #A1B1B5;
+}
