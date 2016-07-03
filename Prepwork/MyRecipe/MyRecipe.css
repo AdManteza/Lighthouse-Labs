@@ -14,6 +14,22 @@ body {
 	height: 500px;
 }
 
+#img_button {
+	text-align: center;
+	margin-top: 15px;
+}
+
+button {
+	font-size: 15px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border-radius: 5px;
+	background-color: #99CFDE;
+}
+
+#list_button {
+	float: right;
+}
+
 #recipe_id {
 	margin: auto;
 	height: 50px;
@@ -100,3 +116,10 @@ h3 {
 .instructions:hover {
 	background: #A1B1B5;
 }
+
+.addClass {
+	color: red;
+}
+
+
+
