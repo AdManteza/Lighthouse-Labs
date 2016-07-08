@@ -1,18 +1,16 @@
-$(document).ready(
-	function(){
+$(document).ready(function(){
 		$('button').click(
 			function(){
         $('#photo').toggle();
     	}
     )
-    $('.ingredients_list').click(
+    $('.ingredients_list li').click(
     	function(){
-    		$(this).css('color', 'red')
+    		$(this).toggleClass('addColor')
     	}
     )	
-    $('.step_by_step_instructions').click(
-    	function(){
-    		$(this).css('background-color', 'grey')
+    $('.step_by_step_instructions li').click(function(){
+    		$(this).toggleClass('addBackground')
     	}
     )	
 	}	
